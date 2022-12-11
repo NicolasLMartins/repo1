@@ -1,0 +1,59 @@
+.cabecalho.container-fluid{
+    background-color: hsl(9, 44%, 31%, 20%);
+    height: 100px;
+}
+
+.cad{
+    /* background-color: brown; */
+    margin-top: 30px;
+    float: left;
+}
+
+.log{
+    /* background-color: aqua; */
+    margin-left: 20px; 
+    margin-top: 30px;
+    float: left;
+}
+
+.box-logo{
+    margin-left: 20px; 
+    margin-top: 10px;
+}
+
+.perfil{
+    /* background-color: orange; */
+   
+    margin-left: 20px; 
+    margin-top: 15px;
+}
+
+.superiordireito{
+    min-width: 443px;
+}
+
+.navibar{
+    padding: 0;
+    height: 45px;
+}
+
+.navibar2{
+    height: 45px;
+}
+
+.navibar a{
+    font-size: larger;
+    margin-left: 20px;
+}
+
+.imagemcarrossel{
+    height: 700px;
+}
+
+.testedestaques img{
+    height: 200px;
+}
+
+.testedestaques{
+    background-color: gray;
+}
