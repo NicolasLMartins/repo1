@@ -22,15 +22,15 @@
                     </div>
                 </div>
                 
-                <div class="superiordireito col-md-3">
-                    <h2 class="cad">Cadastro</h2>
-                    <h2 class="log">Fazer Login</h2>
+                <div class="superiordireito col-3">
+                    <h3 class="cad">Cadastro</h3>
+                    <h3 class="log">Login</h3>
                     <img class="perfil" src="img/perfil3.png" alt="">
                 </div>
             </div>
         </div>
 
-        <nav class="navbar navbar-expand-sm">
+        <nav class="navbar navnbar-expand-sm">
 			<div class="container-fluid">
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
 					<span class="navbar-toggler-icon"></span>
@@ -39,32 +39,23 @@
 				<div class="collapse navbar-collapse" id="mynavbar">
 					
 					<ul class="navbar-nav me-auto nav" role="tablist">
-						<li class="nav-item">
-							<a class="nav-link active" data-bs-toggle="pill" href="#home">Início</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" data-bs-toggle="pill" href="#menu1">Avaliações</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" data-bs-toggle="pill" href="#menu2">Loja</a>
-						</li>
+						<li class="nav-item"><a class="nav-link active" data-bs-toggle="pill" href="#inicio">Início</a></li>
+						<li class="nav-item"><a class="nav-link" data-bs-toggle="pill" href="#aval">Avaliações</a></li>
+						<li class="nav-item"><a class="nav-link" data-bs-toggle="pill" href="#loja">Loja</a></li>
 					</ul>					
 					
-					<!-- <form class="d-flex"> -->
-						<!-- <input class="form-control me-2" type="text" placeholder="Search"> -->
-						<!-- <button class="btn btn-primary" type="button">Search</button> -->
-					<!-- </form> -->
+					<form class="d-flex">
+						<input class="form-control me-2" type="text" placeholder="Pesquisar">
+						<button class="pesquisa btn" type="button">Search</button>
+					</form>
 					
 				</div>
 			</div>
 		</nav>
         
         <div class="container">
-
 		    <div class="tab-content">
-            
-		    	<div id="home" class="container tab-pane active">
-
+		    	<div id="inicio" class="container tab-pane active">
                     <div class="carrossel"> 
                         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                             <div class="carousel-indicators">
@@ -94,56 +85,202 @@
                         </div>
                     </div>
         
-                    <div class="row justify-content-center">
-                        <div class="col-lg-4">
-                            <div class="card" style="width: 18rem;">
+                    <div class="row">
+                        <div class="cartoes col-lg-4">
+                            <div class="destaques card">
                                 <img src="img/teste.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
-                              </div>
+                            </div>
                         </div>
                         
-                        <div class="col-lg-4">
-                            <div class="card" style="width: 18rem;">
+                        <div class="cartoes col-lg-4">
+                            <div class="destaques card">
                                 <img src="img/teste.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
-                              </div>
+                            </div>
                         </div>
         
-                        <div class="col-lg-4">
-                            <div class="card" style="width: 18rem;">
+                        <div class="cartoes col-lg-4">
+                            <div class="destaques card">
                                 <img src="img/teste.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
-                              </div>
+                            </div>
                         </div>
                     </div>
 
 		    	</div>
             
             
-		    	<div id="menu1" class="container tab-pane fade">
+		    	<div id="aval" class="container tab-pane fade">
                 
+                    <div class="carrossel"> 
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/teste2.webp" class="d-block imagemcarrossel" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/teste2.webp" class="d-block imagemcarrossel" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/teste2.webp" class="d-block imagemcarrossel" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="cartoes col-lg-4">
+                            <div class="destaques card">
+                                <img src="img/teste.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="cartoes col-lg-4">
+                            <div class="destaques card">
+                                <img src="img/teste.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="cartoes col-lg-4">
+                            <div class="destaques card">
+                                <img src="img/teste.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
 		    	</div>
             
             
-		    	<div id="menu2" class="container tab-pane fade">
+		    	<div id="loja" class="container tab-pane fade">
+
+                    <div class="row">
+                        <div class="cartoes col-lg-4">
+                            <div class="destaques card">
+                                <img src="img/teste.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="cartoes col-lg-4">
+                            <div class="destaques card">
+                                <img src="img/teste.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="cartoes col-lg-4">
+                            <div class="destaques card">
+                                <img src="img/teste.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="cartoes col-lg-4">
+                            <div class="destaques card">
+                                <img src="img/teste.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="cartoes col-lg-4">
+                            <div class="destaques card">
+                                <img src="img/teste.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="cartoes col-lg-4">
+                            <div class="destaques card">
+                                <img src="img/teste.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 
 		    	</div>
             
 		    </div>
 
         </div> 
+        
+        <footer class="cabecalho container-fluid">
 
+            <div class="inferiordireito dropup-center dropup">
+                <button class="mais btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Mais
+                </button>
+                <ul class="menudropup dropdown-menu">
+                    <li><a class="itensdropup dropdown-item" href="#">FAQ</a></li>
+                    <li><a class="itensdropup dropdown-item" href="#">SAIBA MAIS</a></li>
+                    <li><a class="itensdropup dropdown-item" href="#">PATROCINADORES</a></li>
+                </ul>
+            </div>
+
+            <div class="row justify-content-end">
+                <div class="inferiordireito col-3">
+                    <h5 class="faq">FAQ</h5>
+                    <h5 class="sbm">SAIBA MAIS</h5>
+                    <h5 class="pat">PATROCINADORES</h5>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
