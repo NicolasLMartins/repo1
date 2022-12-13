@@ -90,14 +90,13 @@ form.d-flex{
     margin: 5px;
 }
 
-.destaques, .destaques2, input.form-control, .pesquisa{
+.destaques, .destaques2, input.form-control, .pesquisa, a.btn{
     border: #010101 solid 2px;
     border-radius: 0.375rem;
 }
 
-.pesquisa{
+.pesquisa, a.btn{
     color: #010101;
-    font-size: larger;
     font-weight: bolder;
     background-color: #522720;
 }
@@ -121,7 +120,24 @@ img.imagemcarrossel{
 }
 
 .card-body{
+    padding: 0;
     background-color: #72372c33;
+}
+
+.card-title{
+    padding: 16px 0 0 16px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.card-text{
+    padding: 0 16px 16px 16px;
+    text-align: justify;
+    font-size: large;
+}
+
+a.btn{
+    margin: 0 0 16px 16px;
 }
 
 @media (max-width: 991px) {
@@ -134,8 +150,12 @@ img.imagemcarrossel{
     }
 
     .destaques2{
-        min-width: 300px;
+        min-width: 12   0px;
         max-width: 450px;
+    }
+
+    .cartoes.col-4{
+        width: 50%;
     }
 
     .carrossel{
